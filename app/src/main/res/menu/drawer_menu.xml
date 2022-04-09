@@ -18,6 +18,10 @@
             android:icon="@drawable/syllabus"
             android:title="@string/syllabus" />
         <item
+            android:id="@+id/nav_redeem"
+            android:icon="@drawable/redeem"
+            android:title="Redeem" />
+        <item
             android:id="@+id/nav_notification"
             android:icon="@drawable/notification"
             android:title="@string/notifications" />

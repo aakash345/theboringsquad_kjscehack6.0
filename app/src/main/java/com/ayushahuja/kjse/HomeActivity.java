@@ -123,6 +123,9 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_syllabus:
                 startActivity(new Intent(HomeActivity.this, ViewSyllabusActivity.class));
                 break;
+            case R.id.nav_redeem:
+                startActivity(new Intent(HomeActivity.this, Redeem.class));
+                break;
             case R.id.nav_notification:
                 startActivity(new Intent(HomeActivity.this, NotificationHistory.class));
                 break;
