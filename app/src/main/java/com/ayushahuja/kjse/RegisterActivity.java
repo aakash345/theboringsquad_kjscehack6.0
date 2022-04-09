@@ -61,7 +61,7 @@ public class RegisterActivity extends AppCompatActivity {
                 String uid = reguid.getText().toString();
                 String pwd = password.getText().toString();
                 String cpwd = confirmpassword.getText().toString();
-                Integer points = 0;
+                String points = "0";
 
                 load = new Loading(RegisterActivity.this);
 
@@ -84,7 +84,7 @@ public class RegisterActivity extends AppCompatActivity {
         });
     }
 
-    private void regUser(String fname, String lname, String email, String[] mand, String pwd, Integer points) {
+    private void regUser(String fname, String lname, String email, String[] mand, String pwd, String points) {
         mAuth.createUserWithEmailAndPassword(email, pwd).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
             @Override
             public void onSuccess(AuthResult authResult) {
