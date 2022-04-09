@@ -120,7 +120,7 @@
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:layout_centerInParent="true"
-                            android:src="@drawable/practice" />
+                            android:src="@drawable/points2" />
 
                         <TextView
                             android:id="@+id/points"
@@ -153,7 +153,7 @@
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:layout_centerInParent="true"
-                            android:src="@drawable/ic_baseline_file_download_24" />
+                            android:src="@drawable/shop3" />
 
                         <TextView
                             android:id="@+id/shop"
@@ -180,14 +180,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
+                    android:textColor="@color/black"
                     android:hint="Year">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/year"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+                        android:drawableStart="@drawable/ic_baseline_backup_table_24"
                         android:drawablePadding="10dp"
+                        android:textColor="@color/black"
                         android:text="BE" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -195,14 +197,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
+                    android:textColor="@color/black"
                     android:hint="Branch">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/branch"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:drawableStart="@drawable/ic_baseline_feedback_24"
+                        android:drawableStart="@drawable/ic_baseline_add_task_24"
                         android:drawablePadding="10dp"
+                        android:textColor="@color/black"
                         android:text="COMP" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -210,21 +214,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:hint="Div">
+                    android:hint="Div"
+                    app:hintTextColor="@color/black">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/div"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:drawableStart="@drawable/ic_baseline_notifications_24"
+                        android:drawableStart="@drawable/ic_baseline_file_download_24"
                         android:drawablePadding="10dp"
+                        android:textColor="@color/black"
                         android:text="A" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:layout_marginBottom="10dp"
+                    android:textColor="@color/black"
                     android:hint="Roll No">
 
                     <com.google.android.material.textfield.TextInputEditText
@@ -233,6 +240,7 @@
                         android:layout_height="50dp"
                         android:drawableStart="@drawable/ic_baseline_question_answer_24"
                         android:drawablePadding="10dp"
+                        android:textColor="@color/black"
                         android:text="100" />
                 </com.google.android.material.textfield.TextInputLayout>
 
