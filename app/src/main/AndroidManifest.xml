@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ayushahuja.kjse">
+    package="com.ars.kjse">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -16,65 +16,71 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Redeem"
+            android:name="com.ars.kjse.Redeem"
             android:exported="false" />
         <activity
-            android:name=".AssignmentActivity"
+            android:name="com.ars.kjse.uploadass"
             android:exported="false" />
         <activity
-            android:name=".NotificationHistory"
+            android:name="com.ars.kjse.viewAllAssignmentActivity"
             android:exported="false" />
         <activity
-            android:name=".TtActivity"
+            android:name="com.ars.kjse.AssignmentActivity"
             android:exported="false" />
         <activity
-            android:name=".AddttActivity"
+            android:name="com.ars.kjse.NotificationHistory"
             android:exported="false" />
         <activity
-            android:name=".FeedBackActivity"
+            android:name="com.ars.kjse.TtActivity"
             android:exported="false" />
         <activity
-            android:name=".SpdfActivity"
+            android:name="com.ars.kjse.AddttActivity"
             android:exported="false" />
         <activity
-            android:name=".SubjectPdfActivity"
+            android:name="com.ars.kjse.FeedBackActivity"
             android:exported="false" />
         <activity
-            android:name=".AllSubjectsActivity"
+            android:name="com.ars.kjse.SpdfActivity"
             android:exported="false" />
         <activity
-            android:name=".ViewAllSemesterActivity"
+            android:name="com.ars.kjse.SubjectPdfActivity"
             android:exported="false" />
         <activity
-            android:name=".PreviosQuestPaperActivity"
+            android:name="com.ars.kjse.AllSubjectsActivity"
             android:exported="false" />
         <activity
-            android:name=".ViewSyllabusActivity"
+            android:name="com.ars.kjse.ViewAllSemesterActivity"
             android:exported="false" />
         <activity
-            android:name=".SyllabusActivity"
+            android:name="com.ars.kjse.PreviosQuestPaperActivity"
             android:exported="false" />
         <activity
-            android:name=".PushNotifications"
+            android:name="com.ars.kjse.ViewSyllabusActivity"
             android:exported="false" />
         <activity
-            android:name=".AdminDashboard"
+            android:name="com.ars.kjse.SyllabusActivity"
             android:exported="false" />
         <activity
-            android:name=".ForgotPassActivity"
+            android:name="com.ars.kjse.PushNotifications"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.ars.kjse.AdminDashboard"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.ars.kjse.ForgotPassActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name="com.ars.kjse.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ars.kjse.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ars.kjse.HomeActivity"
             android:exported="false"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.ars.kjse.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -84,7 +90,7 @@
         </activity>
 
         <service
-            android:name=".FCMService"
+            android:name="com.ars.kjse.FCMService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

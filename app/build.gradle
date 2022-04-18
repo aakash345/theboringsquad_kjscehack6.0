@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.ayushahuja.kjse"
+        applicationId "com.ars.kjse"
         minSdk 21
         targetSdk 32
         versionCode 1

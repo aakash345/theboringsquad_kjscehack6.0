@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1015772530591:android:edc2f689bfd002710b1faa",
+        "mobilesdk_app_id": "1:1015772530591:android:df3278568f9ba8a80b1faa",
         "android_client_info": {
-          "package_name": "com.ayushahuja.kjse"
+          "package_name": "com.ars.kjse"
         }
       },
       "oauth_client": [
